@@ -55,4 +55,6 @@ def index(queryResults = None):
 def test():
 	return "test"
 
-app.run(host='0.0.0.0', port=8888)
+
+app.run(host='0.0.0.0', port=8080)
+app.run()
