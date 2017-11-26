@@ -27,10 +27,10 @@ def index(queryResults = None):
 
 		for word in wordsToRemove:
 			del termFrequency[word]
-			
+
 		print(list(termFrequency.keys()))
 
-		termFrequency = TermTools.mergeWords(termFrequency)
+		# termFrequency = TermTools.mergeWords(termFrequency)
 		valuesAndDois = TermTools.valueFunction(termFrequency)
 		doisAndInfo = TermTools.dois2articles("../config/config.yml.rasmus", valuesAndDois)
 
@@ -55,4 +55,4 @@ def index(queryResults = None):
 def test():
 	return "test"
 
-app.run(host='0.0.0.0', port=80)
+app.run(host='0.0.0.0', port=8888)
