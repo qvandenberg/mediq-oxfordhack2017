@@ -63,10 +63,10 @@ $("#start_button").click(function(){
 		buttonClicked = !buttonClicked;
 		// render();
 });
-
-title = "Here goes the title"
-abstract = "Here goes the abstract."
-journalLink = "www.google.nl"
+//
+// title = "Here goes the title"
+// abstract = "Here goes the abstract."
+// journalLink = "www.google.nl"
 
 // $().(()){
 // 	let article = $("
